@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="dist/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/bxslide.css">
+    <link rel="stylesheet" href="dist/magnific-popup/dist/magnific-popup.css">
+    <link rel="stylesheet" href="dist\font-awesome\css\font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/riio.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-default navbar-fixed-top navbar-riio">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                    <a class="navbar-brand" href="#"><img src="images/rioo.jpg" width="50" height="50" alt=""></a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <form id="signin" class="navbar-form" role="form">
+                        <div class="input-group add-on">
+                            <span class="input-group-addon">BUSQUEDA</span>
+                            <label for="search" class="sr-only">Search</label>
+                            <input type="text" class="form-control border-input" placeholder="" name="q" id="q">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default btn-search" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <i class="fa fa-envelope-o fa-2x navbar-icons" aria-hidden="true"></i>
+                        <i class="fa fa-heart-o fa-2x navbar-icons" aria-hidden="true"></i>
+                        <button type="submit" class="btn navbar-btn">INGRESAR</button>
+                        <button type="submit" class="btn navbar-btn">REGISTRARSE</button>
+                    </form>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+        <div class="row banner-margin">
+            <div class="col-md-12 banner-bg">
+                <p class="text-center">BANNER PROMOCIONES</p>
+            </div>
+        </div>
+    </div>
+
+    <!--SOCIAL STICKY NAV-->
+    <aside id="sticky-social" class="hidden-xs hidden-sm hidden-md">
+        <div id="social-buttons">
+            <ul>
+                <a class="instagram" href="http://www.facebook.com">
+                    <li><i class="fa fa-instagram fa-size"></i></li>
+                </a>
+                <a class="facebook" href="https://www.twitter.com">
+                    <li><i class="fa fa-facebook fa-size"></i></li>
+                </a>
+                <a class="youtube" href="http://www.youtube.com">
+                    <li><i class="fa fa-youtube-play fa-size"></i></li>
+                </a>
+            </ul>
+        </div>
+    </aside>
+    <!--END SOCIAL STICKY NAV-->
+
+    <section class="container">
+        <div class="row">
+            <!-- FILTER & CATEGORIES MOBILE BUTTONS -->
+            <!--                            -->
+            <div class="hidden-sm hidden-md hidden-lg hidden-xl visible-xs">
+                <div class="col-md-12">
+                    <h6 class="text-center">HOME>CATEGORIA>NOMBRE DEL PRODUCTO</h6>
+                </div>
+                <div class="col-xs-12">
+                    <div class="row" style="margin-bottom: 15px;">
+                        <div class="col-xs-6">
+                            <button type="button" class="btn btn-block" data-toggle="modal" data-target="#categories">CATEGORIAS</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="categories" role="dialog">
+                                <div class="modal-dialog">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Modal Header</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div id="MainMenuMobile">
+                                                <div class="list-group panel">
+                                                    <a href="#demo1mobile" class="list-group-item strong" data-toggle="collapse" data-parent="#MainMenuMobile">Item 1 <i class="fa fa-caret-down"></i></a>
+                                                    <div class="collapse" id="demo1mobile">
+                                                        <a href="#SubMenu1Mobile" class="list-group-item strong" data-toggle="collapse" data-parent="#SubMenu1Mobile">Subitem 1 <i class="fa fa-caret-down"></i></a>
+                                                        <div class="collapse list-group-submenu" id="SubMenu1Mobile">
+                                                            <a href="#" class="list-group-item" data-parent="#SubMenu1Mobile">Subitem 1 a</a>
+                                                            <a href="#" class="list-group-item" data-parent="#SubMenu1Mobile">Subitem 2 b</a>
+                                                            <a href="#SubSubMenu1Mobile" class="list-group-item strong" data-toggle="collapse" data-parent="#SubSubMenu1Mobile"><i class="glyphicon glyphicon-user"></i> Subitem 3 c <i class="fa fa-caret-down"></i></a>
+                                                            <div class="collapse list-group-submenu list-group-submenu-1" id="SubSubMenu1Mobile">
+                                                                <a href="#" class="list-group-item" data-parent="#SubSubMenu1Mobile">Sub sub item 1</a>
+                                                                <a href="#" class="list-group-item" data-parent="#SubSubMenu1Mobile">Sub sub item 2</a>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" class="list-group-item">Subitem 2</a>
+                                                        <a href="#" class="list-group-item">Subitem 3</a>
+                                                    </div>
+                                                    <a href="#demo2" class="list-group-item strong" data-toggle="collapse" data-parent="#MainMenuMobile">Item 2 <i class="fa fa-caret-down"></i></a>
+                                                    <div class="collapse" id="demo2">
+                                                        <a href="#" class="list-group-item">Subitem 1</a>
+                                                        <a href="#SubSubMenu4Mobile" class="list-group-item strong" data-toggle="collapse" data-parent="#SubSubMenu4Mobile"><i class="glyphicon glyphicon-thumbs-up"></i> Subitem 2 <i class="fa fa-caret-down"></i></a>
+                                                        <div class="collapse list-group-submenu list-group-submenu-1" id="SubSubMenu4Mobile">
+                                                            <a href="#" class="list-group-item" data-parent="#SubSubMenu1"><i class="glyphicon glyphicon-flag"></i> Sub sub item 1</a>
+                                                            <a href="#" class="list-group-item" data-parent="#SubSubMenu1"><i class="glyphicon glyphicon-cog"></i> Sub sub item 2</a>
+                                                        </div>
+                                                        <a href="#" class="list-group-item">Subitem 3</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <button type="button" class="btn btn-block" data-toggle="modal" data-target="#filters">FILTROS</button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="filters" role="dialog">
+                                <div class="modal-dialog">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Modal Header</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Some text in the modal.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--                                -->
+            <!-- END FILTER & CATEGORIES MOBILE -->
+
+
+            <!--FILTER SECTION-->
+            <div class="col-md-2 hidden-xs hidden-sm">
+
+                <!-- CATEGORIAS -->
+                <!--            -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6 class="text-center categories-title-size">CATEGORIAS</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="MainMenu">
+                            <div class="list-group panel">
+                                <a href="#demo3" class="list-group-item strong" data-toggle="collapse" data-parent="#MainMenu">Item 1 <i class="fa fa-caret-down"></i></a>
+                                <div class="collapse" id="demo3">
+                                    <a href="#SubMenu1" class="list-group-item strong" data-toggle="collapse" data-parent="#SubMenu1">Subitem 1 <i class="fa fa-caret-down"></i></a>
+                                    <div class="collapse list-group-submenu" id="SubMenu1">
+                                        <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 1 a</a>
+                                        <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 2 b</a>
+                                        <a href="#SubSubMenu1" class="list-group-item strong" data-toggle="collapse" data-parent="#SubSubMenu1"><i class="glyphicon glyphicon-user"></i> Subitem 3 c <i class="fa fa-caret-down"></i></a>
+                                        <div class="collapse list-group-submenu list-group-submenu-1" id="SubSubMenu1">
+                                            <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Sub sub item 1</a>
+                                            <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Sub sub item 2</a>
+                                        </div>
+                                        <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 4 d</a>
+                                        <a href="#SubSubMenu3" class="list-group-item strong" data-toggle="collapse" data-parent="#SubSubMenu3"><i class="glyphicon glyphicon-dashboard"></i> Subitem 5 e <i class="fa fa-caret-down"></i></a>
+                                        <div class="collapse list-group-submenu list-group-submenu-1" id="SubSubMenu3">
+                                            <a href="#" class="list-group-item" data-parent="#SubSubMenu3">Sub sub item 5.1</a>
+                                            <a href="#" class="list-group-item" data-parent="#SubSubMenu3">Sub sub item 5.2</a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="list-group-item">Subitem 2</a>
+                                    <a href="#" class="list-group-item">Subitem 3</a>
+                                </div>
+                                <a href="#demo4" class="list-group-item strong" data-toggle="collapse" data-parent="#MainMenu">Item 2 <i class="fa fa-caret-down"></i></a>
+                                <div class="collapse" id="demo4">
+                                    <a href="#" class="list-group-item">Subitem 1</a>
+                                    <a href="#SubSubMenu4" class="list-group-item strong" data-toggle="collapse" data-parent="#SubSubMenu4"><i class="glyphicon glyphicon-thumbs-up"></i> Subitem 2 <i class="fa fa-caret-down"></i></a>
+                                    <div class="collapse list-group-submenu list-group-submenu-1" id="SubSubMenu4">
+                                        <a href="#" class="list-group-item" data-parent="#SubSubMenu1"><i class="glyphicon glyphicon-flag"></i> Sub sub item 1</a>
+                                        <a href="#" class="list-group-item" data-parent="#SubSubMenu1"><i class="glyphicon glyphicon-cog"></i> Sub sub item 2</a>
+                                    </div>
+                                    <a href="#" class="list-group-item">Subitem 3</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                -->
+                <!-- END CATEGORIAS -->
+
+
+                <!-- FILTROS -->
+                <!--         -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6 class="text-center filters-title-size">FILTROS</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form action="">
+                            <div class="form-inline">
+                                <input type="checkbox">
+                                <label for="">asdads</label>
+                            </div>
+                            <div class="form-inline">
+                                <input type="checkbox">
+                                <label for="">asdads</label>
+                            </div>
+                            <div class="form-inline">
+                                <input type="checkbox">
+                                <label for="">asdads</label>
+                            </div>
+                            <div class="form-inline">
+                                <input type="checkbox">
+                                <label for="">asdads</label>
+                            </div>
+                            <div class="form-inline">
+                                <input type="checkbox">
+                                <label for="">asdads</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--             -->
+                <!-- END FILTROS -->
+
+
+                <!-- CAPACITACIONES -->
+                <!--                -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6 class="text-center capacitaciones-title-size">CAPACITACIONES</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        
+                    </div>
+                </div>
+                <!--                    -->
+                <!-- END CAPACITACIONES -->
+
+            </div>
+            <!--END FILTER SECTION-->
+
+
+            <!-- PRODUCTS GALLERY SECTION -->
+            <!--                          -->
+            <div class="col-md-8">
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <img src="http://fakeimg.pl/250x250/" class="img-responsive">
+                    <h5 class="text-center gallery-product-title">Titulo</h5>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <h5 class="text-center gallery-product-title">Titulo</h5>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <h5 class="text-center gallery-product-title">Titulo</h5>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <h5 class="text-center gallery-product-title">Titulo</h5>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <h5 class="text-center gallery-product-title">Titulo</h5>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <h5 class="text-center gallery-product-title">Titulo</h5>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <h5 class="text-center gallery-product-title">Titulo</h5>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <h5 class="text-center gallery-product-title">Titulo</h5>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <h5 class="text-center gallery-product-title">Titulo</h5>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <h5 class="text-center gallery-product-title">Titulo</h5>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <h5 class="text-center gallery-product-title">Titulo</h5>
+                </div>
+
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <h5 class="text-center gallery-product-title">Titulo</h5>
+                </div>
+            </div>
+            <!--                              -->
+            <!-- END PRODUCTOS GALLERY SECTION-->
+
+
+            <!-- SIMILARES SLIDE MOBILE-->
+            <!--                       -->
+            <div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl visible-xs">
+                <div class="row">
+                    <div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl visible-xs">
+                        <h6 class="text-center destacados-title-size">DESTACADOS</h6>
+                    </div>
+                </div>
+                <div class="slider1">
+
+                    <div class="slide slide-thumb-img">
+                        <a href="">
+                            <img src="images/dog.jpg">
+                        </a>
+                    </div>
+
+                    <div class="slide slide-thumb-img">
+                        <a href="">
+                            <img src="images/dog.jpg">
+                        </a>
+                    </div>
+
+                    <div class="slide slide-thumb-img">
+                        <a href="">
+                            <img src="images/dog.jpg">
+                        </a>
+                    </div>
+
+                    <div class="slide slide-thumb-img">
+                        <a href="">
+                            <img src="images/dog.jpg">
+                        </a>
+                    </div>
+
+                    <div class="slide slide-thumb-img">
+                        <a href="">
+                            <img src="images/dog.jpg">
+                        </a>
+                    </div>
+
+                    <div class="slide slide-thumb-img">
+                        <a href="">
+                            <img src="images/dog.jpg">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <!--                            -->
+            <!-- END SIMILARES SLIDE MOBILE -->
+
+
+            <!-- SIMILARES DESKTOP -->
+            <!--                   -->
+            <div class="col-md-2 hidden-xs">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6 class="text-center destacados-title-size">DESTACADOS</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="product-similar-img">
+                            <a href="">
+                                <img src="https://unsplash.it/200/300/?random">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="product-similar-img">
+                            <a href="">
+                                <img src="https://unsplash.it/200/200/?random">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="product-similar-img">
+                            <a href="">
+                                <img src="https://unsplash.it/200/100/?random">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="product-similar-img">
+                            <a href="">
+                                <img src="https://unsplash.it/200/50/?random">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--                   -->
+            <!-- SIMILARES DESKTOP -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-md-offset-2 col-xs-12">
+                    <form id="suscribe" role="form">
+                        <h5 class="text-center suscribe-title">Queres suscribirte</h5>
+                        <div class="input-group">
+                            <input type="text" class="form-control text-center form-input-style" placeholder="MAIL">
+                            <button type="submit" class="form-control form-input-style">ACEPTAR</buttn>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="col-md-2 col-md-offset-1 col-xs-12 hidden-xs">
+                    <div class="mobile">
+                    <ul>
+                        <li class=""><a href="">Quiénes Somos</a></li>
+                        <li class=""><a href="">Nuestra Filosofía</a></li>
+                        <li class=""><a href="">Como funciona</a></li>
+                        <li class=""><a href="">Preguntas Frecuentes</a></li>
+                        <li class=""><a href="">Términos y condiciones</a></li>
+                        <li class=""><a href="">Politica de privacidad</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-offset-1 col-xs-12 pagos">
+                    <h5 class="text-center payment-title">FORMAS DE PAGO</h5>
+                    <div class="row">
+                        <div class="col-xs-2 col-md-2">
+                            <img class="pay" src="images/pago-facil.png" >
+                        </div>
+                        <div class="col-xs-2 col-md-2" >
+                            <img class="pay" src="images/link.png">
+                        </div>
+                        <div class="col-xs-2 col-md-2" >
+                            <img class="pay" src="images/mastercard.png">
+                        </div>
+                        <div class="col-xs-2 col-md-2">
+                            <img class="pay" src="images/rapipago.png">
+                        </div>
+                        <div class="col-xs-2 col-md-2" >
+                            <img class="pay" src="images/visa.png">
+                        </div>
+                        <div class="col-xs-2 col-md-2">
+                            <img class="pay" src="images/banelco.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-offset-1 col-xs-12 visible-xs">
+                    <div class="mobile">
+                    <ul>
+                        <li class=""><a href="">Quiénes Somos</a></li>
+                        <li class=""><a href="">Nuestra Filosofía</a></li>
+                        <li class=""><a href="">Como funciona</a></li>
+                        <li class=""><a href="">Preguntas Frecuentes</a></li>
+                        <li class=""><a href="">Términos y condiciones</a></li>
+                        <li class=""><a href="">Politica de privacidad</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="dist/js/jquery-2.2.4.min.js"></script>
+    <script src="dist/bootstrap/js/bootstrap.min.js"></script>
+    <script src="dist/js/bxslide.min.js"></script>
+    <script src="dist/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <script src="js/riio.js"></script>
+</body>
+
+</html>
